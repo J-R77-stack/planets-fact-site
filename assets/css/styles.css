@@ -4,4 +4,12 @@ body {
    height: 95vh;
    background-size: cover;
    background-repeat: no-repeat;
+   font-family: 'League Spartan', sans-serif;
+   color: #FFFFFF;
 }
+
+h2 {
+   font-family: 'Antonio', sans-serif;
+   color: #FFFFFF;
+}
+
