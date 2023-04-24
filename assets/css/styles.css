@@ -8,8 +8,36 @@ body {
    color: #FFFFFF;
 }
 
+/* NavBar Styles */
+
 h2 {
    font-family: 'Antonio', sans-serif;
    color: #FFFFFF;
+   font-size: 40px;
+   line-height: 52px;
+   letter-spacing: -1.5;
 }
 
+h4 {
+   font-family: 'Spartan Bold', sans-serif;
+   color:#838391;
+   font-size: 18px;
+   line-height: 25px;
+   letter-spacing: +1;
+}
+
+.navbar-brand {
+   margin-left: 14px;
+}
+
+#navbarNav {
+   justify-content: end;
+}
+
+.nav-item{
+   margin: 14px;
+}
+
+hr {
+   margin-top: -5px;
+}
