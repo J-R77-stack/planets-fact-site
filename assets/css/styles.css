@@ -38,6 +38,18 @@ h4 {
    margin: 14px;
 }
 
-hr {
-   margin-top: -5px;
+/* Main Section */
+
+h1 {
+   font-family: 'League Spartan';
+   font-size: 80px;
+   line-height: 103px;
+   text-align: left;
+}
+
+p {
+   font-family: 'Spatan Regular';
+   font-size: 14px;
+   line-height: 25px;
+   text-align: left;
 }
