@@ -40,16 +40,34 @@ h4 {
 
 /* Main Section */
 
+#mercury {
+   margin-top: 200px;
+}
+
+#mercury-info {
+   margin-top: 100px;
+   text-align: start;
+}
+
 h1 {
-   font-family: 'League Spartan';
+   font-family: 'Antonio', sans-serif;
    font-size: 80px;
    line-height: 103px;
-   text-align: left;
 }
 
 p {
    font-family: 'Spatan Regular';
-   font-size: 14px;
+   font-size: 18px;
    line-height: 25px;
-   text-align: left;
 }
+
+footer {
+margin-top: 130px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+   .infoBoxes {
+     font-size: 30px;
+   }
+ }
