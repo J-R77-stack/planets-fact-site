@@ -10,6 +10,10 @@ body {
 
 /* NavBar Styles */
 
+#nav-bar-line a:hover {
+border-top: 4px solid #419ebb;
+}
+
 h2 {
    font-family: 'Antonio', sans-serif;
    color: #FFFFFF;
