@@ -10,8 +10,40 @@ body {
 
 /* NavBar Styles */
 
-#nav-bar-line a:hover {
+#nav-bar-line1 a:hover {
 border-top: 4px solid #419ebb;
+}
+
+#nav-bar-line2 a:hover {
+   border-top: 4px solid #eda249;
+   }
+
+#nav-bar-line3 a:hover {
+   border-top: 4px solid #6f2ed6;
+   }
+
+#nav-bar-line4 a:hover {
+   border-top: 4px solid #d14c32;
+}
+
+#nav-bar-line5 a:hover {
+   border-top: 4px solid #d83a34;
+}
+
+#nav-bar-line6 a:hover {
+   border-top: 4px solid #cd5120;
+}
+
+#nav-bar-line7 a:hover {
+   border-top: 4px solid #1ec2a4;
+}
+
+#nav-bar-line8 a:hover {
+   border-top: 4px solid #2d68f0;
+}
+
+.active {
+   border-top: 4px solid #419ebb;
 }
 
 h2 {
