@@ -46,6 +46,10 @@ border-top: 4px solid #419ebb;
    border-top: 4px solid #419ebb;
 }
 
+.active-venus {
+   border-top: 4px solid #eda249;
+}
+
 h2 {
    font-family: 'Antonio', sans-serif;
    color: #FFFFFF;
@@ -87,6 +91,17 @@ h4 {
    border-color: #38384f;
 }
 
+.btn-venus
+{
+    background-color:#eda249;
+    border-color: #eda249;
+}
+
+.btn-venus:hover {
+   background-color: #38384f;
+   border-color: #38384f;
+}
+
 .btn {
    border-color: #38384f;
    color: #FFFFFF;
@@ -97,13 +112,25 @@ h4 {
    background-color: #38384f;
 }
 
+
+
 #mercury {
-   margin-top: 200px;
+   margin-top: 160px;
    margin-right: 100px;
 }
 
 #mercury-info {
    margin-top: 100px;
+   text-align: start;
+}
+
+#venus {
+   margin-top: 140px;
+   margin-right: 100px;
+}
+
+#venus-info {
+   margin-top: 50px;
    text-align: start;
 }
 
@@ -123,8 +150,12 @@ p {
    color: #838391;
 }
 
-footer {
+#footer {
 margin-top: 120px;
+}
+
+#footer2 {
+   margin-top: 60px;
 }
 
 /* Media Queries */

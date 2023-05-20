@@ -31,14 +31,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" >
+        <ul class="navbar-nav">
           <li class="nav-item" id="nav-bar-line1">
-            <a class="nav-link active" aria-current="page" href="index.html">
-              <h4>MERCURY</h4> 
+            <a class="nav-link "  href="index.html">
+              <h4>MERCURY</h4>
             </a>
           </li>
           <li class="nav-item" id="nav-bar-line2">
-            <a class="nav-link" href="#">
+            <a class="nav-link active-venus" aria-current="page" href="venus.html">
               <h4>VENUS</h4>
             </a>
           </li>
@@ -77,44 +77,65 @@
     </div>
   </nav>
   <!-- Main Section -->
-  <div class="row container text-center">
-    <div class="col-lg-8 col-md-12" style="background-color: tomato;">
-      <h3>I will switch to row as the screen goes smaller!</h3>
-    </div>
-    
-    <div class="col-md-12 col-sm-12 col-lg-4">
-
-      <!-- Nested! switch to row as screen gets smaller -->
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-lg-8" style="background-color: yellow;">
-          <h3>GeeksForGeeks is awesome!</h3>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-8 col-md-12" >
+        <div id="venus">
+          <img src="assets/images/planet-venus.svg" alt="image of venus">
         </div>
-        <div class="col-md-6 col-sm-6 col-lg-8" style="background-color: yellowgreen;">
-          <h3>GeeksForGeeks is actually for geeks!</h3>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-4">
+        <div class="row" id="venus-info">
+          <div class="col-md-6 col-sm-6 col-lg-12" >
+            <h1 class="mb-3">
+              VENUS
+            </h1>
+            <p>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight. Source : Wikipedia The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.  </p>
+            <h4 class="mb-5">Source : <a href="https://en.wikipedia.org/wiki/Venus" target="_blank"
+                id="wiki-links">Wikipedia</a><span> <img src="assets/images/icon-source.svg" alt=""></span></h4>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-12">
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg text-start btn-venus rounded-0">01 Overview</button>
+              <button type="button" class="btn  btn-lg text-start rounded-0">02 Internal Structure</button>
+              <button type="button" class="btn  btn-lg text-start rounded-0">03 Surface Geology </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-   
   </div>
   <!-- Footer -->
   <footer>
-  <div class="container" id="footer">
-    <div class="row">
-      <div class="col">
-       <div class="p-2 p-lg-3 border border-secondary"><h4>Rotation Time</h4> <h2 class="infoBoxes">58.6 Days</h2></div>
-      </div>
-      <div class="col">
-        <div class="p-2 p-lg-3 border border-secondary"><h4>Revolution Time</h4> <h2 class="infoBoxes">87.97 Days</h2></div>
-      </div>
-      <div class="col">
-        <div class="p-2 p-lg-3 border border-secondary"><h4>Radius</h4> <h2 class="infoBoxes">2,439.7 KM</h2></div>
-      </div>
-      <div class="col">
-        <div class="p-2 p-lg-3 border border-secondary" ><h4>Average Temp.</h4> <h2 class="infoBoxes">430°c</h2></div>
+    <div class="container" id="footer2">
+      <div class="row">
+        <div class="col">
+          <div class="p-2 p-lg-3 border border-secondary">
+            <h4>Rotation Time</h4>
+            <h2 class="infoBoxes">58.6 Days</h2>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-2 p-lg-3 border border-secondary">
+            <h4>Revolution Time</h4>
+            <h2 class="infoBoxes">87.97 Days</h2>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-2 p-lg-3 border border-secondary">
+            <h4>Radius</h4>
+            <h2 class="infoBoxes">2,439.7 KM</h2>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-2 p-lg-3 border border-secondary">
+            <h4>Average Temp.</h4>
+            <h2 class="infoBoxes">430°c</h2>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
