@@ -112,26 +112,19 @@ h4 {
    background-color: #38384f;
 }
 
-
-
 #mercury {
    margin-top: 160px;
    margin-right: 100px;
 }
 
-#mercury-info {
-   margin-top: 100px;
+#info {
+   margin-top: 120px;
    text-align: start;
 }
 
 #venus {
    margin-top: 140px;
    margin-right: 100px;
-}
-
-#venus-info {
-   margin-top: 50px;
-   text-align: start;
 }
 
 h1 {
@@ -150,13 +143,15 @@ p {
    color: #838391;
 }
 
+/* footers */
+
 #footer {
 margin-top: 120px;
 }
 
-#footer2 {
-   margin-top: 60px;
-}
+#footer1 {
+   margin-top: 120px;
+   }
 
 /* Media Queries */
 
@@ -170,5 +165,108 @@ margin-top: 120px;
    #mercury {
       margin-top: 200px;
       margin-right: 0px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #venus {
+      margin-top: 60px;
+      margin-right: 0px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   .d-grid  {
+      margin-top: 80px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   .btn  {
+      margin-top: 10px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #mercury  {
+      margin-top: 50px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #info  {
+      margin-top: 60px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #footer  {
+      margin-top: 30px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #footer1  {
+      margin-top: 10px;
+     padding-bottom: 20px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #info  {
+      margin-top: 120px;
+   }
+ }
+
+
+ @media only screen and (max-width: 390px) {
+   #info  {
+      text-align: center;
+      margin-top: 40px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   h1  {
+      font-size: 50px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   p  {
+      font-size: 14px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   h4  {
+      font-size: 16px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   img  {
+     max-width: 50%;
+     max-height: 50%;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   .d-grid  {
+      margin-top: 0px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   #footer  {
+      margin-top: 40px;
+      padding-bottom: 20px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   #footer1  {
+      margin-top: 40px;
+      padding-bottom: 20px;
    }
  }
