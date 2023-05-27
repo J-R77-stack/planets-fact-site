@@ -1,358 +1,223 @@
 body {
-   background-color: #070724;
-   background-image: url('../images/background-stars.svg');
-   height: 95vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   font-family: 'League Spartan', sans-serif;
-   color: #FFFFFF;
+    background-color: #070724;
+    background-image: url("../images/background-stars.svg");
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "League Spartan", sans-serif;
+    color: #ffffff;
 }
 
 /* NavBar Styles */
 
 #nav-bar-line1 a:hover {
-border-top: 4px solid #419ebb;
+    border-top: 4px solid #419ebb;
 }
 
 #nav-bar-line2 a:hover {
-   border-top: 4px solid #eda249;
-   }
+    border-top: 4px solid #eda249;
+}
 
 #nav-bar-line3 a:hover {
-   border-top: 4px solid #6f2ed6;
-   }
+    border-top: 4px solid #6f2ed6;
+}
 
 #nav-bar-line4 a:hover {
-   border-top: 4px solid #d14c32;
+    border-top: 4px solid #d14c32;
 }
 
 #nav-bar-line5 a:hover {
-   border-top: 4px solid #d83a34;
+    border-top: 4px solid #d83a34;
 }
 
 #nav-bar-line6 a:hover {
-   border-top: 4px solid #cd5120;
+    border-top: 4px solid #cd5120;
 }
 
 #nav-bar-line7 a:hover {
-   border-top: 4px solid #1ec2a4;
+    border-top: 4px solid #1ec2a4;
 }
 
 #nav-bar-line8 a:hover {
-   border-top: 4px solid #2d68f0;
+    border-top: 4px solid #2d68f0;
 }
 
 .active {
-   border-top: 4px solid #419ebb;
+    border-top: 4px solid #419ebb;
 }
 
 .active-venus {
-   border-top: 4px solid #eda249;
+    border-top: 4px solid #eda249;
 }
 
 .active-earth {
-   border-top: 4px solid #6f2ed6;
+    border-top: 4px solid #6f2ed6;
 }
 
 .active-mars {
-   border-top: 4px solid #d14c32;
+    border-top: 4px solid #d14c32;
+}
+
+.active-jupiter {
+    border-top: 4px solid #d83a34;
 }
 
 h2 {
-   font-family: 'Antonio', sans-serif;
-   color: #FFFFFF;
-   font-size: 40px;
-   line-height: 52px;
-   letter-spacing: -1.5;
+    font-family: "Antonio", sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -1.5;
 }
 
 h4 {
-   font-family: 'Spartan Bold', sans-serif;
-   color:#838391;
-   font-size: 18px;
-   line-height: 25px;
-   letter-spacing: +1;
+    font-family: "Spartan Bold", sans-serif;
+    color: #838391;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: +1;
 }
 
 .navbar-brand {
-   margin-left: 14px;
+    margin-left: 14px;
 }
 
 #navbarNav {
-   justify-content: end;
+    justify-content: end;
 }
 
-.nav-item{
-   margin: 12px;
+.nav-item {
+    margin: 12px;
 }
 
 /* Main Section */
 
-.btn-primary
-{
-    background-color:#419ebb;
+.btn-primary {
+    background-color: #419ebb;
     border-color: #419ebb;
 }
 
 .btn-primary:hover {
-   background-color: #38384f;
-   border-color: #38384f;
+    background-color: #38384f;
+    border-color: #38384f;
 }
 
-.btn-venus
-{
-    background-color:#eda249;
+.btn-venus {
+    background-color: #eda249;
     border-color: #eda249;
 }
 
 .btn-venus:hover {
-   background-color: #38384f;
-   border-color: #38384f;
+    background-color: #38384f;
+    border-color: #38384f;
 }
 
-.btn-earth
-{
-    background-color:#6f2ed6;
+.btn-earth {
+    background-color: #6f2ed6;
     border-color: #6f2ed6;
 }
 
 .btn-earth:hover {
-   background-color: #38384f;
-   border-color: #38384f;
+    background-color: #38384f;
+    border-color: #38384f;
 }
 
-.btn-mars
-{
-    background-color:#d14c32;
+.btn-mars {
+    background-color: #d14c32;
     border-color: #d14c32;
 }
 
 .btn-mars:hover {
-   background-color: #38384f;
-   border-color: #38384f;
+    background-color: #38384f;
+    border-color: #38384f;
+}
+
+.btn-jupiter {
+    background-color: #d83a34;
+    border-color: #d83a34;
+}
+
+.btn-jupiter:hover {
+    background-color: #38384f;
+    border-color: #38384f;
 }
 
 .btn {
-   border-color: #38384f;
-   color: #FFFFFF;
+    border-color: #38384f;
+    color: #ffffff;
 }
 
 .btn:hover {
-   border-color: #38384f;
-   background-color: #38384f;
+    border-color: #38384f;
+    background-color: #38384f;
 }
 
 #mercury {
-   margin-top: 160px;
-   margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 100px;
 }
 
 #venus {
-   margin-top: 140px;
-   margin-right: 100px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
 #earth {
-   margin-top: 140px;
-   margin-right: 100px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
 #mars {
-   margin-top: 140px;
-   margin-right: 100px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
-#info {
-   margin-top: 120px;
-   text-align: start;
+#jupiter {
+    margin-top: 20px;
+}
+
+#info-mercury {
+    margin-top: 120px;
+    text-align: start;
 }
 
 #info-earth {
-   margin-top: 120px;
-   text-align: start;
+    margin-top: 120px;
+    text-align: start;
 }
 
-#info-mars{
-   margin-top: 120px;
-   text-align: start;
+#info-mars {
+    margin-top: 120px;
+    text-align: start;
+}
+
+#info-jupiter {
+    margin-top: 60px;
+    text-align: start;
 }
 
 h1 {
-   font-family: 'Antonio', sans-serif;
-   font-size: 80px;
-   line-height: 103px;
+    font-family: "Antonio", sans-serif;
+    font-size: 80px;
+    line-height: 103px;
 }
 
 p {
-   font-family: 'Spatan Regular';
-   font-size: 18px;
-   line-height: 25px;
+    font-family: "Spatan Regular";
+    font-size: 18px;
+    line-height: 25px;
 }
 
 #wiki-links {
-   color: #838391;
+    color: #838391;
 }
 
 /* footers */
 
 #footer {
-margin-top: 120px;
+    margin-top: 120px;
 }
 
 #footer1 {
-   margin-top: 120px;
-   }
-
-/* Media Queries */
-
-@media only screen and (max-width: 900px) {
-   .infoBoxes {
-     font-size: 30px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #mercury {
-      margin-top: 200px;
-      margin-right: 0px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #venus {
-      margin-top: 60px;
-      margin-right: 0px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #earth {
-      margin-top: 60px;
-      margin-right: 0px;
-      margin-bottom: 0px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #mars {
-      margin-top: 60px;
-      margin-right: 0px;
-      margin-bottom: 0px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   .d-grid  {
-      margin-top: 80px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   .btn  {
-      margin-top: 10px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #mercury  {
-      margin-top: 50px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #info  {
-      margin-top: 60px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #footer  {
-      margin-top: 30px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #footer1  {
-      margin-top: 10px;
-     padding-bottom: 20px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #info  {
-      margin-top: 120px;
-   }
- }
-
- @media only screen and (max-width: 900px) {
-   #info-earth  {
-      margin-top: 40px;
-   }
- }
-
-
- @media only screen and (max-width: 390px) {
-   #info  {
-      text-align: center;
-      margin-top: 40px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   #info-earth  {
-      text-align: center;
-      margin-top: 40px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   #info-mars  {
-      text-align: center;
-      margin-top: 40px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   h1  {
-      font-size: 50px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   p  {
-      font-size: 14px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   h4  {
-      font-size: 16px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   img  {
-     max-width: 50%;
-     max-height: 50%;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   .d-grid  {
-      margin-top: 0px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   #footer  {
-      margin-top: 40px;
-      padding-bottom: 20px;
-   }
- }
-
- @media only screen and (max-width: 390px) {
-   #footer1  {
-      margin-top: 40px;
-      padding-bottom: 20px;
-   }
- }
+    margin-top: 120px;
+}
