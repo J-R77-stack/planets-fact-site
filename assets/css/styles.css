@@ -181,6 +181,11 @@ h4 {
     text-align: start;
 }
 
+#info-venus {
+    margin-top: 120px;
+    text-align: start;
+}
+
 #info-earth {
     margin-top: 120px;
     text-align: start;
@@ -218,6 +223,210 @@ p {
     margin-top: 120px;
 }
 
-#footer1 {
+#footer-venus {
     margin-top: 120px;
+}
+
+#footer-jupiter {
+    margin-top: 120px;
+}
+
+/* Media Queries */
+
+/* for screens 390px max */
+
+@media (max-width: 390px) {
+    #mercury {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-mercury {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    #venus {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-venus {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #earth {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-earth {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #mars {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-mars {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #jupiter {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-jupiter {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 390px) {
+    h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 390px) {
+    img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 390px) {
+    .d-grid {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    #footer {
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    #footer-jupiter {
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+/* for screens 900px */
+
+@media (max-width: 900px) {
+    .infoBoxes {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    #mercury {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #venus {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #earth {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #mars {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .d-grid {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info-mercury {
+        margin-top: 120px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info-venus {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info-earth {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #footer {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    #footer-jupiter {
+        margin-top: 10px;
+    }
 }
