@@ -50,6 +50,14 @@ border-top: 4px solid #419ebb;
    border-top: 4px solid #eda249;
 }
 
+.active-earth {
+   border-top: 4px solid #6f2ed6;
+}
+
+.active-mars {
+   border-top: 4px solid #d14c32;
+}
+
 h2 {
    font-family: 'Antonio', sans-serif;
    color: #FFFFFF;
@@ -102,6 +110,28 @@ h4 {
    border-color: #38384f;
 }
 
+.btn-earth
+{
+    background-color:#6f2ed6;
+    border-color: #6f2ed6;
+}
+
+.btn-earth:hover {
+   background-color: #38384f;
+   border-color: #38384f;
+}
+
+.btn-mars
+{
+    background-color:#d14c32;
+    border-color: #d14c32;
+}
+
+.btn-mars:hover {
+   background-color: #38384f;
+   border-color: #38384f;
+}
+
 .btn {
    border-color: #38384f;
    color: #FFFFFF;
@@ -117,14 +147,34 @@ h4 {
    margin-right: 100px;
 }
 
+#venus {
+   margin-top: 140px;
+   margin-right: 100px;
+}
+
+#earth {
+   margin-top: 140px;
+   margin-right: 100px;
+}
+
+#mars {
+   margin-top: 140px;
+   margin-right: 100px;
+}
+
 #info {
    margin-top: 120px;
    text-align: start;
 }
 
-#venus {
-   margin-top: 140px;
-   margin-right: 100px;
+#info-earth {
+   margin-top: 120px;
+   text-align: start;
+}
+
+#info-mars{
+   margin-top: 120px;
+   text-align: start;
 }
 
 h1 {
@@ -176,6 +226,22 @@ margin-top: 120px;
  }
 
  @media only screen and (max-width: 900px) {
+   #earth {
+      margin-top: 60px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   #mars {
+      margin-top: 60px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
    .d-grid  {
       margin-top: 80px;
    }
@@ -218,9 +284,29 @@ margin-top: 120px;
    }
  }
 
+ @media only screen and (max-width: 900px) {
+   #info-earth  {
+      margin-top: 40px;
+   }
+ }
+
 
  @media only screen and (max-width: 390px) {
    #info  {
+      text-align: center;
+      margin-top: 40px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   #info-earth  {
+      text-align: center;
+      margin-top: 40px;
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
+   #info-mars  {
       text-align: center;
       margin-top: 40px;
    }
