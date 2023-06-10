@@ -142,6 +142,16 @@ h4 {
     border-color: #38384f;
 }
 
+.btn-saturn {
+    background-color: #cd5120;
+    border-color: #cd5120;
+}
+
+.btn-saturn:hover {
+    background-color: #38384f;
+    border-color: #38384f;
+}
+
 .btn {
     border-color: #38384f;
     color: #ffffff;
@@ -176,6 +186,10 @@ h4 {
     margin-top: 20px;
 }
 
+#saturn {
+    margin-bottom: 60px;
+}
+
 #info-mercury {
     margin-top: 120px;
     text-align: start;
@@ -197,6 +211,11 @@ h4 {
 }
 
 #info-jupiter {
+    margin-top: 60px;
+    text-align: start;
+}
+
+#info-saturn {
     margin-top: 60px;
     text-align: start;
 }
@@ -229,6 +248,10 @@ p {
 
 #footer-jupiter {
     margin-top: 130px;
+}
+
+#footer-saturn {
+    margin-top: 0px;
 }
 
 /* Media Queries */
@@ -306,6 +329,20 @@ p {
 }
 
 @media (max-width: 390px) {
+    #saturn {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-saturn {
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 390px) {
     h1 {
         font-size: 50px;
     }
@@ -345,6 +382,13 @@ p {
 
 @media (max-width: 390px) {
     #footer-jupiter {
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    #footer-saturn {
         margin-top: 40px;
         padding-bottom: 20px;
     }
@@ -419,6 +463,14 @@ p {
     }
 }
 
+
+@media (max-width: 900px) {
+    #info-saturn {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 @media (max-width: 900px) {
     #footer {
         margin-top: 60px;
@@ -428,5 +480,12 @@ p {
 @media (max-width: 900px) {
     #footer-jupiter {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    #footer-saturn {
+        margin-top: 10px;
+        padding-bottom: 20px;
     }
 }
