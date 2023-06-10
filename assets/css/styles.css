@@ -62,6 +62,18 @@ body {
     border-top: 4px solid #d83a34;
 }
 
+.active-saturn {
+    border-top: 4px solid #cd5120;
+}
+
+.active-uranus {
+    border-top: 4px solid #1ec2a4;
+}
+
+.active-neptune {
+    border-top: 4px solid #2d68f0;
+}
+
 h2 {
     font-family: "Antonio", sans-serif;
     color: #ffffff;
@@ -152,6 +164,26 @@ h4 {
     border-color: #38384f;
 }
 
+.btn-uranus {
+    background-color: #1ec2a4;
+    border-color: #1ec2a4;
+}
+
+.btn-uranus:hover {
+    background-color: #38384f;
+    border-color: #38384f;
+}
+
+.btn-neptune {
+    background-color: #2d68f0;
+    border-color: #2d68f0;
+}
+
+.btn-neptune:hover {
+    background-color: #38384f;
+    border-color: #38384f;
+}
+
 .btn {
     border-color: #38384f;
     color: #ffffff;
@@ -187,7 +219,17 @@ h4 {
 }
 
 #saturn {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
+}
+
+#uranus {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#neptune {
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 #info-mercury {
@@ -217,6 +259,16 @@ h4 {
 
 #info-saturn {
     margin-top: 60px;
+    text-align: start;
+}
+
+#info-uranus {
+    margin-top: 100px;
+    text-align: start;
+}
+
+#info-neptune {
+    margin-top: 100px;
     text-align: start;
 }
 
@@ -251,7 +303,7 @@ p {
 }
 
 #footer-saturn {
-    margin-top: 0px;
+    margin-top: 60px;
 }
 
 /* Media Queries */
@@ -331,14 +383,42 @@ p {
 @media (max-width: 390px) {
     #saturn {
         margin-right: 0px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 }
 
 @media (max-width: 390px) {
     #info-saturn {
         text-align: center;
-        margin-top: 0px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #uranus {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-uranus {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #neptune {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    #info-neptune {
+        text-align: center;
+        margin-top: 40px;
     }
 }
 
@@ -431,6 +511,31 @@ p {
 }
 
 @media (max-width: 900px) {
+    #uranus {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #neptune {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #saturn {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
     .d-grid {
         margin-top: 80px;
     }
@@ -467,6 +572,21 @@ p {
 @media (max-width: 900px) {
     #info-saturn {
         margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info-uranus {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info-neptune {
+        margin-top: 20px;
         margin-bottom: 0px;
     }
 }
