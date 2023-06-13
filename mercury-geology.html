@@ -82,7 +82,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div id="mercury">
-                    <img src="assets/images/planet-mercury-internal.svg" alt="image of mercury" />
+                    <img src="assets/images/geology-mercury.png" alt="image of mercury" />
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-4">
@@ -95,14 +95,14 @@
                                     .then(response => response.json())
                                     .then(data => {
                                         console.log(data[0].name)
-                                        document.querySelector("#p-mercury").innerText = data[0].structure.content
+                                        document.querySelector("#p-mercury").innerText = data[0].geology.content
                                     })
                             </script>
 
                         </p>
                         <h4 class="mb-5">
                             Source :
-                            <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure" target="_blank"
+                            <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology" target="_blank"
                                 id="wiki-links">Wikipedia</a><span>
                                 <img src="assets/images/icon-source.svg" alt="" /></span>
                         </h4>
@@ -111,10 +111,11 @@
                         <div class="d-grid gap-2">
                             <a class="btn btn-lg text-start rounded-0" href="index.html" role="button">01 Overview
                             </a>
-                            <a class="btn btn-lg text-start btn-primary  rounded-0" href="#" role="button">02 Internal
+                            <a class="btn btn-lg text-start rounded-0" href="mercury-internal.html" role="button">02
+                                Internal
                                 Structure</a>
-                            <a class="btn btn-lg text-start rounded-0" href="mercury-geology.html" role="button">03
-                                Surface Geology</a>
+                            <a class="btn btn-lg text-start btn-primary  rounded-0" href="#" role="button">03 Surface
+                                Geology</a>
                         </div>
                     </div>
                 </div>
