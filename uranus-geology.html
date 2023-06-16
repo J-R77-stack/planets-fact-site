@@ -82,33 +82,38 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div id="uranus">
-                    <img src="assets/images/planet-uranus.svg" alt="image of uranus" />
+                    <img src="assets/images/geology-uranus.png" alt="image of uranus" />
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-4">
                 <div class="row" id="info-uranus">
                     <div class="col-md-6 col-sm-6 col-lg-12">
                         <h1 class="mb-3">URANUS</h1>
-                        <p>
-                            Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god
-                            of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has
-                            the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+                        <p id="p-uranus">
+                            <script>
+                                fetch("data.json")
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        console.log(data[6].name)
+                                        document.querySelector("#p-uranus").innerText = data[6].geology.content
+                                    })
+                            </script>
                         </p>
                         <h4 class="mb-5">
                             Source :
-                            <a href="https://en.wikipedia.org/wiki/Uranus" target="_blank"
+                            <a href="https://en.wikipedia.org/wiki/Uranus#Atmosphere" target="_blank"
                                 id="wiki-links">Wikipedia</a><span>
                                 <img src="assets/images/icon-source.svg" alt="" /></span>
                         </h4>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-12" class="selection-buttons">
                         <div class="d-grid gap-2">
-                            <a class="btn btn-lg text-start btn-uranus rounded-0" href="" role="button">01 Overview
+                            <a class="btn btn-lg text-start rounded-0" href="uranus.html" role="button">01 Overview
                             </a>
-                            <a class="btn btn-lg text-start rounded-0" href="uranus-internal.html" role="button">02
+                            <a class="btn btn-lg text-start  rounded-0" href="uranus-internal.html" role="button">02
                                 Internal
                                 Structure</a>
-                            <a class="btn btn-lg text-start rounded-0" href="uranus-geology.html" role="button">03
+                            <a class="btn btn-lg text-start btn-uranus rounded-0" href="#" role="button">03
                                 Surface Geology</a>
                         </div>
                     </div>
