@@ -214,6 +214,11 @@ h4 {
     margin-right: 100px;
 }
 
+#mars-geology {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
 #jupiter {
     margin-top: 20px;
 }
@@ -298,6 +303,10 @@ p {
 
 #footer {
     margin-top: 120px;
+}
+
+#footer-mercury-geology {
+    padding-bottom: 20px;
 }
 
 #footer-venus {
@@ -388,6 +397,13 @@ p {
 
 @media (max-width: 390px) {
     #saturn {
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    #saturn-geology {
         margin-right: 0px;
         margin-top: 50px;
     }
@@ -536,6 +552,13 @@ p {
         margin-right: 0px;
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    #saturn-geology {
+        margin-right: 0px;
+        margin-top: 50px;
     }
 }
 
