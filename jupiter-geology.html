@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Planet Fact Site</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h2>THE PLANETS</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="nav-bar-line1">
+                        <a class="nav-link" href="index.html">
+                            <h4>MERCURY</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line2">
+                        <a class="nav-link" href="venus.html">
+                            <h4>VENUS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line3">
+                        <a class="nav-link" href="earth.html">
+                            <h4>EARTH</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line4">
+                        <a class="nav-link" href="mars.html">
+                            <h4>MARS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line5">
+                        <a class="nav-link active-jupiter" aria-current="page" href="jupiter.html">
+                            <h4>JUPITER</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line6">
+                        <a class="nav-link" href="saturn.html">
+                            <h4>SATURN</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line7">
+                        <a class="nav-link" href="uranus.html">
+                            <h4>URANUS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-bar-line8">
+                        <a class="nav-link" href="neptune.html">
+                            <h4>NEPTUNE</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div id="jupiter-geology">
+                    <img src="assets/images/geology-jupiter.png" alt="image of JUPITER"
+                        style="max-width: 75%; max-height: 75%;" />
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-4">
+                <div class="row" id="info-jupiter">
+                    <div class="col-md-6 col-sm-6 col-lg-12">
+                        <h1 class="mb-3">JUPITER</h1>
+                        <p id="p-jupiter">
+                            <script>
+                                fetch("data.json")
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        console.log(data[4].name)
+                                        document.querySelector("#p-jupiter").innerText = data[4].structure.content
+                                    })
+                            </script>
+                        </p>
+                        <h4 class="mb-5">
+                            Source :
+                            <a href="https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices"
+                                target="_blank" id="wiki-links">Wikipedia</a><span>
+                                <img src="assets/images/icon-source.svg" alt="" /></span>
+                        </h4>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-12" class="selection-buttons">
+                        <div class="d-grid gap-2">
+                            <a class="btn btn-lg text-start rounded-0" href="jupiter.html" role="button">01 Overview
+                            </a>
+                            <a class="btn btn-lg text-start  rounded-0" href="jupiter-internal.html" role="button">02
+                                Internal
+                                Structure</a>
+                            <a class="btn btn-lg text-start btn-jupiter rounded-0" href="#" role="button">03
+                                Surface Geology</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <footer>
+        <div class="container" id="footer-jupiter">
+            <div class="row">
+                <div class="col-lg-3 col-6 col-sm-3">
+                    <div class="p-2 p-lg-3 border border-secondary">
+                        <h4>Rotation Time</h4>
+                        <h2 class="infoBoxes">9.93 Days</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-3">
+                    <div class="p-2 p-lg-3 border border-secondary">
+                        <h4>Revolution Time</h4>
+                        <h2 class="infoBoxes">11.86 Years</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-3">
+                    <div class="p-2 p-lg-3 border border-secondary">
+                        <h4>Radius</h4>
+                        <h2 class="infoBoxes">69,911 KM</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-3">
+                    <div class="p-2 p-lg-3 border border-secondary">
+                        <h4>Average Temp.</h4>
+                        <h2 class="infoBoxes">-108°c</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
