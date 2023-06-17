@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/planet-fact-site-using-bootstrap-5-and-json-file-LsAWJjG3ku)
 - Live Site URL: [Add live site URL here](https://j-r77-stack.github.io/planets-fact-site/index.html)
 
 ## My process
